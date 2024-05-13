@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2501e9d5955c43b794bc3388fb6ebd02" Name="Diagram1">
+        <EntityTypeShape EntityType="UdemyETicaretContext.Addresses" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UdemyETicaretContext.Categories" Width="1.5" PointX="1.5" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UdemyETicaretContext.Comments" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UdemyETicaretContext.Members" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UdemyETicaretContext.MessageReplies" Width="1.5" PointX="6" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UdemyETicaretContext.Messages" Width="1.5" PointX="3.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="UdemyETicaretContext.OrderDetails" Width="1.5" PointX="5.25" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UdemyETicaretContext.Orders" Width="1.5" PointX="3" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UdemyETicaretContext.Products" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UdemyETicaretContext.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="UdemyETicaretContext.FK_Addresses_Members" ManuallyRouted="false" />
+        <AssociationConnector Association="UdemyETicaretContext.FK_Categories_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="UdemyETicaretContext.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="UdemyETicaretContext.FK_Comments_Members" ManuallyRouted="false" />
+        <AssociationConnector Association="UdemyETicaretContext.FK_Comments_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="UdemyETicaretContext.FK_MessageReplies_Members" ManuallyRouted="false" />
+        <AssociationConnector Association="UdemyETicaretContext.FK_Orders_Members" ManuallyRouted="false" />
+        <AssociationConnector Association="UdemyETicaretContext.FK_MessageReplies_Messages" ManuallyRouted="false" />
+        <AssociationConnector Association="UdemyETicaretContext.FK_OrderDetails_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="UdemyETicaretContext.FK_OrderDetails_Products" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
